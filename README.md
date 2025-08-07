@@ -6,7 +6,7 @@ Each enhancement is self-contained within its own subdirectory and can be integr
 
 ## Repository Structure
 
-### 1. [`enhanced-shell-xv6`](./Enhanced-Shell-xv6)
+### 1. [`Enhanced-Shell-xv6`](./Enhanced-Shell-xv6)
 Enhances the xv6 shell with the following features:
 
 - **Secure Login System**  
@@ -21,7 +21,7 @@ Enhances the xv6 shell with the following features:
 - **Custom `chmod` Command**  
   Implements a system call to change file permissions by directly modifying inode metadata.
 
-### 2. [`signal-scheduler-xv6`](./Signal-Scheduler-xv6)
+### 2. [`Signal-Scheduler-xv6`](./Signal-Scheduler-xv6)
 Introduces real-time signal handling and advanced scheduler features:
 
 - **Keyboard-triggered Signal Handling**  
@@ -38,7 +38,7 @@ Introduces real-time signal handling and advanced scheduler features:
 - **Dynamic Priority Boosting**  
   Scheduler adapts process priorities using tunable parameters (α and β) based on CPU usage and wait time.
 
-### 3. [`memory-swap-xv6`](./Memory-Swap-xv6)
+### 3. [`Memory-Swap-xv6`](./Memory-Swap-xv6)
 Extends xv6's memory management with monitoring and adaptive swapping:
 
 - **Memory Printer (Ctrl+I)**  
